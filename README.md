@@ -31,12 +31,13 @@ python danawa_crawler.py   --category-url "<카테고리_URL>"   --output result
 
 ### 주요 옵션
 
-`--category-url` 크롤링 대상 다나와 카테고리 URL (필수)
-`--output` 결과 파일 이름 `danawa_output.csv`
-`--items-per-page` 한 페이지당 최대 수집 상품 수
-`--max-total-items` 전체 수집 상품 수 제한
-`--delay-ms` 요청 사이 대기 시간(ms) (권장: 800ms)
-`--headless` 브라우저 창 없이 실행
+- `--category-url` 크롤링 대상 다나와 카테고리 URL (필수)
+- `--output` 결과 파일 이름 `danawa_output.csv`
+- `--items-per-page` 한 페이지당 최대 수집 상품 수
+- `--max-total-items` 전체 수집 상품 수 제한
+- `--delay-ms` 요청 사이 대기 시간(ms) (권장: 800ms)
+- `--headless` 브라우저 창 없이 실행
+- `pages` 크롤링 페이지 최댓값 지정
 
 
 ### 페이징 처리 (v3 개선 사항)
