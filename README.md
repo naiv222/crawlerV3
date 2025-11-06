@@ -58,19 +58,19 @@ python danawa_crawler.py   --category-url "<카테고리_URL>"   --output result
 - `URL`
 - `상세정보` (사양, 인증, 등록일 등)
 
-### 💡 사용 팁
+### 사용 팁
 
 - **속도보다 안정성 우선:** `--delay-ms` 값을 600~1200 사이로 조정 
 - **테스트 시:** `--headless` 옵션을 제거하면 동작 확인 가능
 - **수집량 제한:** `--max-total-items`으로 개발 단계에서 데이터 크기 제어  
 
-### 🧰 문제 해결
+### 문제 해결
 
 결과가 비거나 타임아웃 발생: `--delay-ms` 증가, `--items-per-page` 축소
 브라우저 오류: `python -m playwright install` 재실행
 PowerShell 정책 문제: 관리자 권한으로 `Set-ExecutionPolicy RemoteSigned`
 
-### ⚠️ 주의사항
+### 주의사항
 
 - 크롤링은 사이트의 이용약관 및 로봇(/robot.txt) 정책을 준수해야 합니다.  
 - 무분별한 요청으로 인한 차단이나 법적 책임은 사용자에게 있습니다.
