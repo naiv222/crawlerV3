@@ -37,7 +37,7 @@ python danawa_crawler.py   --category-url "<카테고리_URL>"   --output result
 - `--max-total-items` 전체 수집 상품 수 제한
 - `--delay-ms` 요청 사이 대기 시간(ms) (권장: 800ms)
 - `--headless` 브라우저 창 없이 실행
-- `pages` 크롤링 페이지 최댓값 지정
+- `--pages` 크롤링 페이지 최댓값 지정
 
 
 ### 페이징 처리 (v3 개선 사항)
